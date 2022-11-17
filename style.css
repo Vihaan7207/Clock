@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Noto+Nastaliq+Urdu&family=Poor+Story&family=Roboto&display=swap");
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.full-size {
+  width: 100vw;
+  height: 100vh;
+}
+
+h1, p, .pos-easy {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+#top {
+  background-color: rgba(146, 215, 193, 0.8);
+  text-align: center;
+}
+#top h1, #top p {
+  color: white;
+  font-family: Roboto;
+}
+#top h1 {
+  top: 40%;
+}
+#top p {
+  top: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#projects {
+  position: relative;
+  background: rgb(34, 79, 184);
+}
+#projects h1 {
+  color: white;
+  font-family: "Noto Nastaliq Urdu";
+  left: 50%;
+}
+#projects .card-container {
+  top: 35%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+#projects .card-container .card {
+  color: #213A80;
+  background-color: #7ad3f4;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.5s;
+  text-align: center;
+  cursor: pointer;
+}
+#projects .card-container .card:hover {
+  transform: scale(95%);
+}
+
+#about {
+  background-color: #CC40F5;
+}
+
+/*# sourceMappingURL=style.css.map */
