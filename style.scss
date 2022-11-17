@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Noto+Nastaliq+Urdu&family=Poor+Story&family=Roboto&family=Sono&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+	background-color: black;
+}
+
+#time{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: Sono;
+	color: red;
+}
